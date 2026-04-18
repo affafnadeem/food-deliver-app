@@ -69,26 +69,27 @@
 
 ```
 food-delivery-app/
-├── frontend/                    # React Native App (Expo)
-│   ├── App.js                   # Entry point + navigation
-│   ├── screens/
-│   │   ├── HomeScreen.js        # Restaurant list with search & filter
-│   │   └── RestaurantDetail.js  # Restaurant menu + cart
-│   ├── components/
-│   │   ├── RestaurantCard.js    # Reusable restaurant UI card
-│   │   └── Header.js            # App header / search bar
-│   ├── services/
-│   │   └── api.js               # Axios API service layer
-│   └── package.json
+├── backend/
+│ ├── controllers.js # Route handler logic
+│ ├── database.db # Auto-generated SQLite database
+│ ├── database.js # SQLite connection
+│ ├── routes.js # API routes
+│ ├── server.js # Main server + DB init + seeding
+│ ├── package-lock.json
+│ └── package.json
 │
-├── backend/                     # Node.js + Express
-│   ├── server.js                # Main server + DB init + seeding
-│   ├── routes.js                # API routes
-│   ├── controllers.js           # Route handler logic
-│   ├── database.js              # SQLite connection
-│   ├── database.db              # Auto-generated SQLite DB
-│   └── package.json
+├── frontend/
+│ ├── .expo/ # Expo config cache
+│ ├── components/ # Reusable UI components
+│ ├── screens/ # App screens
+│ ├── services/ # Axios API service layer
+│ ├── App.js # Entry point + navigation
+│ ├── app.json # Expo app config
+│ ├── package-lock.json
+│ └── package.json
 │
+├── .gitignore
+├── package.json # Root scripts
 └── README.md
 ```
 
