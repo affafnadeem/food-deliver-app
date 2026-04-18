@@ -1,5 +1,5 @@
 
-'''# 🍔 Food Delivery App
+ 🍔 Food Delivery App
 
 > A full-stack food delivery application with a **React Native (Expo)** frontend and a **Node.js + Express** backend using **SQLite**.
 
