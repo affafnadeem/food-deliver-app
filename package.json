@@ -1,0 +1,12 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "description": "Full-stack food delivery app with React Native (Expo) frontend and Node.js/Express backend",
+  "scripts": {
+    "start:backend": "node backend/server.js",
+    "start:frontend": "cd frontend && expo start",
+    "install:all": "npm install && cd frontend && npm install"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
